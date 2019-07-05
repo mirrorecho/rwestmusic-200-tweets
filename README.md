@@ -13,7 +13,7 @@ Once upon a time, an active compositional project lived at sc140tweets. Composer
 
 Since those bygone days, the tweet limit ballooned to 280 characters and the project lost its cachet. But I learned from it and miss it. I still return to the twitter page for ideas and inspiration. 
 
-So I decided to write a series of pieces in the same spirit. The series contains works of computer code, each 200 characters or less (so I can tweet them with 80 characters left for the #SuperCollider hashtag, a link to SoundCloud, and another hashtag or two).
+So I decided to write a series of pieces in the same spirit. The series contains works of computer code, each 200 characters or less (so I can tweet them with 80 characters left for the #SuperCollider hashtag, a link to [SoundCloud](https://soundcloud.com/randall-west/sets/200-character-pieces), and another hashtag or two).
 
 
 *What can one express musically in 200 characters?*
