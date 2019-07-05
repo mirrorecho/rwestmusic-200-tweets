@@ -1,7 +1,9 @@
 # rwestmusic-200-tweets
 
 200 Character Pieces
+====================
 For Twitter and SuperCollider
+--------------------
 
 Computer music scores as twitter posts?!
 
