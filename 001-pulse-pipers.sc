@@ -1,20 +1,17 @@
 (
 
 // THE TWEET:
-{|i|g=2*f=(i**1.5*12);l=LFPulse;play{y=kr(XLine,1e-4,8,f/2);ar(FreeVerb,ar(CombC,ar(Formant,ar(l,1)*f+f+(ar(l,y/i)*f+g)+(ar(l,y)*f)+(ar(l,1/y)*g)+(ar(l,y*2)*g),y*400,y*f,(8-y)/29)),i/9,i/9)!2}}!9 // #SuperCollider
+
+{|i|g=2*f=(i**1.5*12);l=LFPulse;play{y=kr(XLine,1e-4,8,f/2);ar(FreeVerb,ar(CombC,ar(Formant,ar(l,1)*f+f+(ar(l,y/i)*f+g)+(ar(l,y)*f)+(ar(l,1/y)*g)+(ar(l,y*2)*g),y*400,y*f,(8-y)/29)),i/9,i/9)!2}}!9
+
+// #SuperCollider https://soundcloud.com/randall-west/pulse-pipers-supercollider-twitter-001
 
 )
 
 
 
-
-
-
-// HUMAN-READABLE VERSION WITH COMMENTS:
-
-
 (
-s.record("recordings/001-pulse-me.wav".resolveRelative, numChannels:2);
+// HUMAN-READABLE VERSION WITH COMMENTS:
 
 // 8 overalapping repetitions:
 (1..8).do { |i|
@@ -66,4 +63,3 @@ s.record("recordings/001-pulse-me.wav".resolveRelative, numChannels:2);
 
 )
 
-s.stopRecording;
